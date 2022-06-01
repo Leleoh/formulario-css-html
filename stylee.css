@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Fomatações Corpo*/
+body{
+    background-color: #F0F8FF;
+    color: #59429d;
+    font-family: sans-serif;
+}
+#container{
+    width: 500px;
+    margin: 0 auto;
+}
+#titulo{
+    color: #380B61;;
+    text-align: center;
+    margin-top: 25px;
+}
+#subtitulo{
+    text-align: center;
+    color: #380B61;;
+}
+/*Formulários*/
+fieldset{
+    border-style: none;
+    padding: 25px;
+    
+}
+label{
+    display: flex;
+}
+.campo{
+    float: left;
+}
+.campo2{
+    float: right;
+}
+input, select, textarea, button{
+    border-radius: 3px;
+}
+.campo input{
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    line-height: 1.7em;
+    border: 1px solid #59429d;
+}
+.campo2 input{
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    line-height: 1.7em;
+    border: 1px solid #59429d;
+}
+select{
+    margin-left: 5px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 3px;
+    border: 1px solid #59429d;
+}
+
+.margem{
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.margem label{
+    padding: 5px;
+    line-height: 0.9em;
+}
+
+input:focus, select:focus, textarea:focus{
+    background-color: #E0E0F8;
+}
+
+.grupo2{
+    padding-left: 30px;
+}
+
+#check {
+    text-align: justify;
+}
+  
+#check:after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+.margem2{
+    margin-top: -25px;
+    margin-left: 30px;
+}
+textarea{
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    line-height: 1.7em;
+    border: 1px solid #59429d;
+}
+button{
+    font-size: 1.2em;
+    background-color: #59429d;
+    border: 0px;
+    margin-bottom: 1em;
+    color: #fff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+}
+.botao:hover{
+    background-color: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+    cursor: pointer;
+}

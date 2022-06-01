@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de DEVs teste</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <div id="container">
+        <!--Início Título-->
+        <div>
+            <h1 id="titulo">Cadastro de DEVs</h1>
+            <p id="subtitulo">Complete as suas informações</p>
+        </div>
+        <!--Fim título-->
+        <!--Começo formulários básicos-->
+        <div>
+            <form action="">
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="nome"><strong>Nome</strong></label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="campo2">
+                        <label for="sobrenome"><strong>Sobrenome</strong></label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
+                    </div>
+                </fieldset>
+                <div class="campo" style="padding-left: 25px;">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name="email" id="email">
+                </div> <!--Fim dos forms básicos -->
+                <!--Começo Alternativas-->
+                <div class="margem" style="clear: both;">
+                    <label for="">Você é front-end ou back-end?</label>
+                    <label for="">
+                        <input type="radio" name="devweb" id="frontend">Front-End
+                    </label>
+                    <label for="">
+                        <input type="radio" name="devweb" id="backend">Back-end
+                    </label>
+                    <label for="">
+                        <input type="radio" name="devweb" id="fullstack">Full-Stack
+                    </label>
+                </div>
+                <div class="margem">
+                    <label for="">Senioridade</label>
+                    <select name="senioridade" id="senioridade">
+                        <option selected disabled value="" >Escolha...</option>
+                        <option value="">Júnior</option>
+                        <option value="">Pleno</option>
+                        <option value="">Senior</option>
+                    </select>
+                </div>
+                <fieldset class="grupo2">
+                    <label for="">Selecione as tecnologias que você utiliza</label><br>
+                    <div id="check">
+                        <input type="checkbox" class="space">HTML
+                        <input type="checkbox">CSS
+                        <input type="checkbox">Javascript
+                        <input type="checkbox">PHP
+                        <input type="checkbox">C#
+                        <input type="checkbox">Python
+                        <input type="checkbox">Java                    
+                    </div>
+                </fieldset>
+                <div class="margem2 campo">
+                    <label for="">Conte um pouco sobre você</label>
+                    <textarea name="experiencia" id="experiencia" cols="30" rows="10" style="width: 26em ; height: 7em;"></textarea>
+                </div>
+                <button class="botao" type="submit">Concluído</button>
+
+
+
+
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
